@@ -1,0 +1,15 @@
+services:
+  app:
+    image: ghcr.io/couseran/web-wii-app:main
+    restart: unless-stopped
+    networks:
+      - proxy
+    environment:
+      TZ: "Europe/Paris"
+    labels:
+      traefik.enable: true
+      traefik.http.routers.metro.rule: "Host(`web-wii.couseran.fr`)"
+
+networks:
+  proxy:
+    external: true
