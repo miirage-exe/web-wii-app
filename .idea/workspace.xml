@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cea3ac33-e8b1-4752-87b7-7c1ac6ce480c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/docker-image.yml" afterDir="false" />
+    <list default="true" id="cea3ac33-e8b1-4752-87b7-7c1ac6ce480c" name="Changes" comment="add github action">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +68,24 @@
       <workItem from="1775133836873" duration="10000" />
       <workItem from="1775133869353" duration="815000" />
       <workItem from="1775147100041" duration="410000" />
-      <workItem from="1775147516135" duration="1354000" />
+      <workItem from="1775147516135" duration="1662000" />
     </task>
+    <task id="LOCAL-00001" summary="add github action">
+      <option name="closed" value="true" />
+      <created>1775149205423</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775149205423</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add github action" />
+    <option name="LAST_COMMIT_MESSAGE" value="add github action" />
   </component>
 </project>
