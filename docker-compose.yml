@@ -1,6 +1,6 @@
 services:
   app:
-    image: ghcr.io/couseran/web-wii-app:main
+    image: ghcr.io/miirage-exe/web-wii-app:main
     restart: unless-stopped
     networks:
       - proxy
