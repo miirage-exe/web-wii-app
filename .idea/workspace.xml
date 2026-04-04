@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cea3ac33-e8b1-4752-87b7-7c1ac6ce480c" name="Changes" comment="fix: add svelte node adapter">
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="cea3ac33-e8b1-4752-87b7-7c1ac6ce480c" name="Changes" comment="fix: wrong router name" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +64,7 @@
       <workItem from="1775133836873" duration="10000" />
       <workItem from="1775133869353" duration="815000" />
       <workItem from="1775147100041" duration="410000" />
-      <workItem from="1775147516135" duration="2058000" />
+      <workItem from="1775147516135" duration="2838000" />
     </task>
     <task id="LOCAL-00001" summary="add github action">
       <option name="closed" value="true" />
@@ -85,7 +82,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775149497263</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix: wrong image in docker compose">
+      <option name="closed" value="true" />
+      <created>1775149887572</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775149887572</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix: wrong router name">
+      <option name="closed" value="true" />
+      <created>1775150032051</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775150032051</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +107,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add github action" />
     <MESSAGE value="fix: add svelte node adapter" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: add svelte node adapter" />
+    <MESSAGE value="fix: wrong image in docker compose" />
+    <MESSAGE value="fix: wrong router name" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: wrong router name" />
   </component>
 </project>

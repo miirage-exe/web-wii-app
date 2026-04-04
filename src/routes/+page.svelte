@@ -5,8 +5,7 @@
 	let blt = getBluetoothContext();
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<h1>Web Wii</h1>
 
 {#if blt.receivedData !== null}
 	<div>x: {blt.receivedData.x}</div>
