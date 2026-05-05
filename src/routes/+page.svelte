@@ -7,18 +7,18 @@
 
 <h1>Web Wii</h1>
 
+<div>isConnected: {blt.isConnected}</div>
 {#if blt.receivedData !== null}
 	<div>x: {blt.receivedData.x}</div>
 	<div>y: {blt.receivedData.y}</div>
 	<div>roll: {blt.receivedData.roll}</div>
 	<div>buttonMask: {blt.receivedData.buttonMask}</div>
 {/if}
-<div>isConnected: {blt.isConnected}</div>
-<div>Error: {blt.error}</div>
+<div>Error: {blt.error ?? 'none'}</div>
 <button
 onclick={() => blt.connect()}
 >
-	Connection
+	Connect my web wii console
 </button>
 
 <WiiCursor />

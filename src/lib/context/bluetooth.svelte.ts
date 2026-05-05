@@ -1,8 +1,8 @@
 // bleState.svelte.ts
 import { createContext } from "svelte";
 
-const SERVICE_UUID = '641f9229-8a89-4ec4-9588-afca9e9e724b';
-const CHARACTERISTIC_UUID = '5039e8f7-c80e-40da-8d9c-fd2213bf3a41';
+const SERVICE_UUID = 'c0990295-2b98-4df2-9338-6caf6bd6acce';
+const CHARACTERISTIC_UUID = '7bf3223d-0687-479f-80b0-5b4a4c6df558';
 
 interface ConsolePayload {
   x:number,
