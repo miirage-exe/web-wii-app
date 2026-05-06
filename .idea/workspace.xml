@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cea3ac33-e8b1-4752-87b7-7c1ac6ce480c" name="Changes" comment="fix: wrong router name">
+    <list default="true" id="cea3ac33-e8b1-4752-87b7-7c1ac6ce480c" name="Changes" comment="change characteristic values">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/WiiCursor.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/WiiCursor.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/context/bluetooth.svelte.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/context/bluetooth.svelte.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
@@ -21,21 +23,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "/home/mika/Documents/VUB/classes/software_enginering_for_embeded_systemes/project/web-wii-app",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/home/mika/Documents/VUB/classes/software_enginering_for_embeded_systemes/project/web-wii-app/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mika/Documents/VUB/classes/software_enginering_for_embeded_systemes/project/web-wii-app&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/mika/Documents/VUB/classes/software_enginering_for_embeded_systemes/project/web-wii-app/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -70,6 +72,8 @@
       <workItem from="1775147100041" duration="410000" />
       <workItem from="1775147516135" duration="2838000" />
       <workItem from="1777308648105" duration="1929000" />
+      <workItem from="1777996312306" duration="181000" />
+      <workItem from="1778078032211" duration="3956000" />
     </task>
     <task id="LOCAL-00001" summary="add github action">
       <option name="closed" value="true" />
@@ -103,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775150032051</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change characteristic values">
+      <option name="closed" value="true" />
+      <created>1777996436246</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1777996436246</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +126,7 @@
     <MESSAGE value="fix: add svelte node adapter" />
     <MESSAGE value="fix: wrong image in docker compose" />
     <MESSAGE value="fix: wrong router name" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: wrong router name" />
+    <MESSAGE value="change characteristic values" />
+    <option name="LAST_COMMIT_MESSAGE" value="change characteristic values" />
   </component>
 </project>

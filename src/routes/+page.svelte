@@ -9,9 +9,10 @@
 
 <div>isConnected: {blt.isConnected}</div>
 {#if blt.receivedData !== null}
-	<div>x: {blt.receivedData.x}</div>
-	<div>y: {blt.receivedData.y}</div>
+	<div>x: {blt.receivedData.x/100}</div>
+	<div>y: {blt.receivedData.y/100}</div>
 	<div>roll: {blt.receivedData.roll}</div>
+	<div>valid: {blt.receivedData.valid}</div>
 	<div>buttonMask: {blt.receivedData.buttonMask}</div>
 {/if}
 <div>Error: {blt.error ?? 'none'}</div>

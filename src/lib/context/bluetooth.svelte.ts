@@ -19,10 +19,6 @@ interface BluetoothState {
   readonly deviceName: string | null;
   connect(): Promise<void>;
   disconnect(): void;
-  sendCommand<T extends DeviceCommand>(
-      command: T,
-      payload: CommandPayloads[T]
-  ): Promise<void>;
 }
 
 function createBluetoothState(): BluetoothState {
@@ -71,7 +67,7 @@ function createBluetoothState(): BluetoothState {
         x: value.getInt32(0, true),
         y: value.getInt32(1*4, true),
         roll: value.getInt32(2*4, true)/100,
-        buttonMask: value.getUint8(3*4)
+        buttonMask: value.getUint8(3*4),
       }
     } else {
       receivedData.x = value.getInt32(0, true);
@@ -99,67 +95,6 @@ function createBluetoothState(): BluetoothState {
     }
   }
 
-  async function sendCommand<T>( // extends DeviceCommand
-      command: T,
-      // payload: CommandPayloads[T]
-  ) {
-    if (!isConnected) {
-      throw Error('Not connected to a device.');
-    }
-
-    try {
-      throw Error('Not implemented')
-      // error = null;
-      //
-      // // Determine total payload size based on the command
-      // let totalBytes = 4; // Base size for the 4-letter header
-      // if (command === 'LEDS') totalBytes += 3;
-      // else if (command === 'LIFE') totalBytes += 1;
-      // else if (command === 'ANIM') totalBytes += 1;
-      // else throw Error(`Unknown command ${command}`);
-      //
-      // // 2. Create the exact sized buffer
-      // const buffer = new Uint8Array(totalBytes);
-      //
-      // // 3. Write the 4-letter command header (Bytes 0-3)
-      // for (let i = 0; i < 4; i++) {
-      //   buffer[i] = command.charCodeAt(i);
-      // }
-      //
-      // // 4. Write the specific payload data
-      // if (command === 'LEDS') {
-      //   const p = payload as CommandPayloads['LEDS'];
-      //   buffer[4] = p.r;
-      //   buffer[5] = p.g;
-      //   buffer[6] = p.b;
-      // }
-      // else if (command === 'LIFE') {
-      //   const p = payload as CommandPayloads['LIFE'];
-      //   buffer[4] = p.level;
-      // }
-      // else if (command === 'ANIM') {
-      //   const p = payload as CommandPayloads['ANIM'];
-      //   buffer[4] = p.id;
-      // }
-      //
-      // if (!characteristic) {
-      //   throw Error('Not connected to a device.');
-      // }
-      //
-      // try {
-      //   await characteristic.writeValue(buffer);
-      // } catch (err) {
-      //   error = new Error('Failed to send data: ' + (err as Error).message);
-      //   throw error
-      // }
-      //
-      // console.debug(`Command ${command} sent successfully with buffer:`);
-      // console.debug(buffer)
-    } catch (error) {
-      console.error(`Failed to send ${command}:`, error);
-    }
-  }
-
   return {
     get isConnected() { return isConnected; },
     get receivedData() { return receivedData; },
@@ -168,7 +103,6 @@ function createBluetoothState(): BluetoothState {
     connect,
     disconnect,
     isSupported,
-    sendCommand
   };
 }
 
