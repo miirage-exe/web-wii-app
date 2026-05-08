@@ -8,7 +8,8 @@ interface ConsolePayload {
   x:number,
   y: number,
   roll:number,
-  buttonMask:number
+  buttonMask:number,
+  missMask: number
 }
 
 interface BluetoothState {
@@ -68,12 +69,14 @@ function createBluetoothState(): BluetoothState {
         y: value.getInt32(1*4, true),
         roll: value.getInt32(2*4, true)/100,
         buttonMask: value.getUint8(3*4),
+        missMask: value.getUint8(3*4+1),
       }
     } else {
       receivedData.x = value.getInt32(0, true);
       receivedData.y = value.getInt32(1*4, true);
       receivedData.roll = value.getInt32(2*4, true)/100;
       receivedData.buttonMask = value.getUint8(3*4);
+      receivedData.missMask = value.getUint8(3*4+1);
     }
   }
 

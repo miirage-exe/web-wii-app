@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cea3ac33-e8b1-4752-87b7-7c1ac6ce480c" name="Changes" comment="change characteristic values">
+    <list default="true" id="cea3ac33-e8b1-4752-87b7-7c1ac6ce480c" name="Changes" comment="working cursor with new protocol">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/components/WiiCursor.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/WiiCursor.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/context/bluetooth.svelte.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/context/bluetooth.svelte.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,8 @@
       <workItem from="1775147516135" duration="2838000" />
       <workItem from="1777308648105" duration="1929000" />
       <workItem from="1777996312306" duration="181000" />
-      <workItem from="1778078032211" duration="3956000" />
+      <workItem from="1778078032211" duration="3990000" />
+      <workItem from="1778243799334" duration="1237000" />
     </task>
     <task id="LOCAL-00001" summary="add github action">
       <option name="closed" value="true" />
@@ -115,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777996436246</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="working cursor with new protocol">
+      <option name="closed" value="true" />
+      <created>1778089083717</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1778089083717</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +135,7 @@
     <MESSAGE value="fix: wrong image in docker compose" />
     <MESSAGE value="fix: wrong router name" />
     <MESSAGE value="change characteristic values" />
-    <option name="LAST_COMMIT_MESSAGE" value="change characteristic values" />
+    <MESSAGE value="working cursor with new protocol" />
+    <option name="LAST_COMMIT_MESSAGE" value="working cursor with new protocol" />
   </component>
 </project>

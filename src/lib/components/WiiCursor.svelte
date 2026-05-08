@@ -21,7 +21,7 @@
 	>
 		<img
 			src={blt.receivedData.buttonMask & 1 ? '/cursor/hand_closed.png' : '/cursor/hand_point_n.png'}
-			style="transform: translate(-{FINGER_TIP_X}%, -{FINGER_TIP_Y}%);"
+			style="transform: translate(-{FINGER_TIP_X}%, -{FINGER_TIP_Y}%); opacity: {blt.receivedData.missMask > 1 ? 0.2 : 1};"
 			alt=""
 			draggable="false"
 		/>
