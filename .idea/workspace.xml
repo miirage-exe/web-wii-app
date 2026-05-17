@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cea3ac33-e8b1-4752-87b7-7c1ac6ce480c" name="Changes" comment="working cursor with new protocol">
+    <list default="true" id="cea3ac33-e8b1-4752-87b7-7c1ac6ce480c" name="Changes" comment="feat: add missMask">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/WiiCursor.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/WiiCursor.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/context/bluetooth.svelte.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/context/bluetooth.svelte.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,9 @@
       <workItem from="1777308648105" duration="1929000" />
       <workItem from="1777996312306" duration="181000" />
       <workItem from="1778078032211" duration="3990000" />
-      <workItem from="1778243799334" duration="1237000" />
+      <workItem from="1778243799334" duration="2465000" />
+      <workItem from="1778341885141" duration="689000" />
+      <workItem from="1778863696901" duration="977000" />
     </task>
     <task id="LOCAL-00001" summary="add github action">
       <option name="closed" value="true" />
@@ -123,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778089083717</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: add missMask">
+      <option name="closed" value="true" />
+      <created>1778245788460</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1778245788460</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +144,7 @@
     <MESSAGE value="fix: wrong router name" />
     <MESSAGE value="change characteristic values" />
     <MESSAGE value="working cursor with new protocol" />
-    <option name="LAST_COMMIT_MESSAGE" value="working cursor with new protocol" />
+    <MESSAGE value="feat: add missMask" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add missMask" />
   </component>
 </project>

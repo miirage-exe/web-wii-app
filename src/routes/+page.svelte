@@ -12,14 +12,14 @@
 	<div>x: {blt.receivedData.x/100}</div>
 	<div>y: {blt.receivedData.y/100}</div>
 	<div>roll: {blt.receivedData.roll}</div>
-	<div>valid: {blt.receivedData.valid}</div>
+<!--	<div>valid: {blt.receivedData.valid}</div>-->
 	<div>buttonMask: {blt.receivedData.buttonMask}</div>
 {/if}
 <div>Error: {blt.error ?? 'none'}</div>
 <button
 onclick={() => blt.connect()}
 >
-	Connect my web wii console
+	Connect my web wii remote
 </button>
 
 <WiiCursor />

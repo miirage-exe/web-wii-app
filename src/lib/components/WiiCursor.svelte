@@ -17,7 +17,7 @@
 {#if blt.receivedData !== null}
 	<div
 		class="cursor-anchor"
-		style="left:  calc(50vw + {blt.receivedData.x / 100}mm); top: calc(50vh + {blt.receivedData.y / 100}mm); transform: rotate({-blt.receivedData.roll}deg);"
+		style="left:  calc(50vw + {blt.receivedData.x / 100}mm); top: calc(50vh + {blt.receivedData.y / 100}mm); transform: rotate({blt.receivedData.roll}deg);"
 	>
 		<img
 			src={blt.receivedData.buttonMask & 1 ? '/cursor/hand_closed.png' : '/cursor/hand_point_n.png'}
